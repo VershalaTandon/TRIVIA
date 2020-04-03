@@ -5,16 +5,12 @@ import android.os.Bundle;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.trivia_app.Adapter.HistoryAdapter;
 import com.trivia_app.Model.Summary;
 import com.trivia_app.SQLiteDataBaseHelper.DatabaseHelper;
 import java.util.ArrayList;
-
-import static androidx.recyclerview.widget.RecyclerView.HORIZONTAL;
 
 public class HistoryActivity extends AppCompatActivity{
 
